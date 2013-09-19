@@ -5,6 +5,7 @@
   </colgroup>
   <tr>
     <td class="desc bold"><%= I18n.t(:item_description) %></td>
+    <td class="orders bold"><%= t(:orders) %> </td>
     <td class="qty bold"><%= t(:qty) %> </td>
   </tr>
   <% @suppliers = Array.new %>
@@ -14,6 +15,7 @@
         <%= item.variant.product.fullname rescue item.variant.product.name %>
         <%= " #{item.variant.options_text}" %>
       </td>
+      <td class="cell qty"><%=item.quantity%></td>
       <td class="cell qty"><%=(item.quantity * item.variant.product.item_count) %></td>
     </tr>
     <% supplier_name = item.variant.product.supplier.name

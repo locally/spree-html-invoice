@@ -11,7 +11,8 @@ en:
   shipping_address: "Shipping Address"
   item_description: "Item Description"
   sku: "Sku"
-  qty: "Qty"
+  qty: "Total Units"
+  orders: "Orders"
   size: "Size"
   price: "Price"
   invoice:
