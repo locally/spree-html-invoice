@@ -1,5 +1,3 @@
-module Spree::HtmlInvoice; end
-
 module SpreeHtmlInvoice
   class Engine < Rails::Engine
     engine_name 'spree_html_invoice'
