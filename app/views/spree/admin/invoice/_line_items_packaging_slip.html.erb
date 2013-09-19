@@ -14,7 +14,7 @@
         <%= item.variant.product.fullname rescue item.variant.product.name %>
         <%= " #{item.variant.options_text}" %>
       </td>
-      <td class="cell qty"><%=item.quantity %></td>
+      <td class="cell qty"><%=(item.quantity*item.variant.product.item_count) %></td>
     </tr>
     <% supplier_name = item.variant.product.supplier.name
     if "Locally" != supplier_name
