@@ -6,3 +6,4 @@ module Spree
     preference :suppress_anonymous_address, :boolean, :default => true
   end
 end
+Spree::HtmlInvoice::Config.set(:print_buttons => "packaging_slip")
