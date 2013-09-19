@@ -5,8 +5,13 @@ en:
   footer_left2: " 14 days <br/> or never"
 
   footer_right: "Company  <br/>Phone  <br/> www "
-  footer_right2: " My great company <br/>040 146 1222 <br/>  www.gohereoften.com"
-
+  footer_right2: " Locally Co. <br/>617.615.9911<br/>  locally.co"
+  billing_address: "Billing Address"
+  order_number: "Order Number"
+  shipping_address: "Shipping Address"
+  item_description: "Item Description"
+  sku: "Sku"
+  qty: "Qty"
   size: "Size"
   price: "Price"
   invoice:
@@ -14,9 +19,9 @@ en:
     thanks: Thank you for your order.
     print: Print Invoice
   packaging_slip:
-    header: Packaging Slip
-    print: Print Slip
-    thanks: Please check the contents immediately.
+    header: Packing Slip
+    print: Print Packing Slip
+    thanks: "If for any reason you don't love your order, please let us know at support@locally.co </br> or call us at 617.615.9911."
   reminder:
     header: Payment Reminder
     print: Reminder
@@ -25,5 +30,4 @@ en:
     receipt:
       header: Receipt
       print: Receipt
-    
   
