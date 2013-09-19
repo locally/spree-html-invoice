@@ -18,7 +18,11 @@ viite = open("http://www1.nordea.fi/P636V/H636VTXT.asp?action=tekstiLista&lkm=1&
 </table>
 <%end%>
 
-<%= @suppliers.uniq.join(", ") %> and Locally thanks you for your business!
+<%if @suppliers.empty? %>
+  Locally thanks you for your business.
+<%else%>
+  <%= @suppliers.uniq.join(", ") %> and Locally thank you for your business!
+<%end%>
 <table class="thanks_table">
   <tr>
     <td class="cell" cellspan="2"> </td>
